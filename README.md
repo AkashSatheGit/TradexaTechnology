@@ -3,6 +3,10 @@ Hello . This is a Guide to run this assignment.
 
 First , Set up django project then do following steps.
 
+Your path should be correct. You have to come on distributed_system .
+	cd TrdexaTechnology
+ 	cd distributed_system
+
 1 . Run command :
 	
  	python manage.py runserver
