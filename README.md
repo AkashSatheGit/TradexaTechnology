@@ -3,7 +3,9 @@ Hello . This is a Guide to run this assignment.
 
 First , Set up django project then do following steps.
 
-1 . Run command : python manage.py runserver
+1 . Run command :
+	
+ 	python manage.py runserver
 
 You can see there is a no data in tables by clicking options there.
 
