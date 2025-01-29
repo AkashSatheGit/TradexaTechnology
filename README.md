@@ -5,7 +5,7 @@ First , Set up django project then do following steps.
 
 Your path should be correct. You have to come on distributed_system .
 	
- 	cd TrdexaTechnology
+  	cd TradexTech
  	cd distributed_system
 
 1 . Run command :
