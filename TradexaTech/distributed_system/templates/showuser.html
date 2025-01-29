@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Users</title>
+</head>
+<body>
+<table border="1">
+
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>EMAIL</th>
+  </tr>
+  {% for i in data %}
+  <tr>
+    <td>{{i.id}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.email}}</td>
+  </tr>
+  {% endfor %}
+</table><br>
+
+<a href="deleteuser">Delete All</a>
+</body>
+</html>

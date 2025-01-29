@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Orders</title>
+</head>
+<body>
+<table border="1">
+
+  <tr>
+    <th>ID</th>
+    <th>USER</th>
+    <th>PRODUCT</th>
+    <th>QUANTITY</th>
+  </tr>
+  {% for i in data %}
+  <tr>
+    <td>{{i.id}}</td>
+    <td>{{i.user}}</td>
+    <td>{{i.product}}</td>
+    <td>{{i.quantity}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>
