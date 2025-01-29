@@ -13,7 +13,7 @@ You can see there is a no data in tables by clicking options there.
 
 	python manage.py insert_data
 
-   	This command add all data at once
+   This command add all data at once
 
 3. Then run command : python manage.py runserver
 	
